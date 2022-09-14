@@ -29,7 +29,7 @@ Requisitos:
 * O horário de cadastro deve ser obtido automaticamente pelo sistema;
 * A impressão do conteúdo de uma empresa deve atender no mínimo a seguinte formatação:
 
-```json
+```
 ID: ca3e6c78-dae6-4629-b819-e5576c00f68b
 CNPJ: 11.941.838/0001-04 Data Cadastro: 2022-08-31 22:37:17.921952
 Razão Social: Elisa e Flávia Pães e Doces ME
