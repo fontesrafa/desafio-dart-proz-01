@@ -1,6 +1,7 @@
 import 'address.dart';
+import 'partner.dart';
 
-class SimplifiedCompany {
+class SimplifiedCompany implements Partner{
   String? companyName;
   String? tradingName;
   String? cnpj;
@@ -8,6 +9,7 @@ class SimplifiedCompany {
 
   SimplifiedCompany(this.companyName, this.tradingName,this.cnpj, this.address);
 
+  @override
   bool validateIdentificationNumber() {
     return true;
   }
