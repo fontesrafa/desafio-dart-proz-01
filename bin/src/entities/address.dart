@@ -19,6 +19,6 @@ class Address {
 
   @override
   String toString() {
-    return 'Endereço: $streetName, $number, $complement, $district, $city/$state, $postalCode)';
+    return 'Endereço: $streetName, $number, $complement, $district, $city/$state, $postalCode';
   }
 }
